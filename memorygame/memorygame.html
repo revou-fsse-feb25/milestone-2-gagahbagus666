@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../memorygame/memory.css">
+    <script src="../memorygame/memory.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1 class="logo">
+            <a href="../main.html">
+                <img src="../assets/mainlogo.png" alt="main logo">
+            </a>
+        </h1>
+        <div id="player-name" class="name">Welcome, Earthrealm!</div>
+    </header>
+    <!-- card game -->
+    <div class="container">
+        <h1 class="title">Memory Game</h1>
+            <div class="game-board">
+                    <div class="card" data-id="castle" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/castle2.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="castle" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/castle2.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="bat" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/bat.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="bat" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/bat.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="ghost" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/ghost.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="ghost" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/ghost.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="heart" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/heart.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="heart" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/heart.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="moth" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/moth.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="moth" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/moth.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="queenlich" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/queenlich.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="queenlich" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/queenlich.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="reaper" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/reaper.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="reaper" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/reaper.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="skull" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/skull.png" alt="Card Back">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="skull" onclick="flipCard(this)">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="../memorygame/memoryassets/back.png" alt="Card Front">
+                            </div>
+                            <div class="card-back">
+                                <img src="../memorygame/memoryassets/skull.png" alt="Card Back">
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="game-info">
+                <p id="attempts">Souls Remaining: 5</p>
+                <p id="timer">Time: 0s</p>
+            </div>
+    </div>
+    <!-- instrucion -->
+    <div class="instruction">
+        <h2>Welcome To Cards Of The Damned Chamber</h2>
+            <p>a memory game designed to test your mental strength in a dark, mysterious world. In this game, you will face the Dark Entity, a mysterious creature that rules this Pale Court. You </p>
+            <p>Are you ready to take on a challenge that will test your memory and sharpness of mind?</p>
+    </div>
+    <!-- footer -->
+    <footer>💀 Desperately Made by <a href="https://www.instagram.com/gahbagoes/" target="_blank">@gahbagoes</a></footer>
+</body>
+</html>

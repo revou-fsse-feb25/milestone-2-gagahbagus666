@@ -1,1 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/LbNoZaTt)
+# Overview
+project about javascript mini games with gothic style. the goals are to provide a thrilling adventure JavaScript skills by creating a landing page for a fictional gaming pages. The landing page will showcase and host simple JavaScript-based games. This project implement interactive features, and apply JavaScript logic effectively.
+
+## Features
+-   Home Page: Simple and clean landing page Overview of available games with navigation links to each game pages. overlay feature. need to enter a username before enter any other features.
+-   Game Pages: Darkness Janken (Rock Paper Scissors), Cards of The Damned (memories game card) ,Infernum Numerorum (Number Guessing Game).
+
+### Tech Used
+-   HTML
+-   CSS
+-   Javascript
+
+#### Future Enhancement
+-   rework and fix bugs
