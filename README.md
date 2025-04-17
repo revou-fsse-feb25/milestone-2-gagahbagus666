@@ -1,3 +1,6 @@
+# Live Demo
+https://revou-fsse-feb25.github.io/milestone-2-gagahbagus666/
+
 # Overview
 project about javascript mini games with gothic style. the goals are to provide a thrilling adventure JavaScript skills by creating a landing page for a fictional gaming pages. The landing page will showcase and host simple JavaScript-based games. This project implement interactive features, and apply JavaScript logic effectively.
 
