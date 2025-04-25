@@ -11,7 +11,7 @@ function login() {
     if (name) {
         isLoggedIn = true;
         playerName = name;
-
+// need a get item
         localStorage.setItem("playerName", playerName);
         const overlay = document.getElementById("overlay");
         overlay.style.display = "none";
